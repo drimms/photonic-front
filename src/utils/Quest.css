@@ -1,0 +1,106 @@
+.App-test {
+  
+  border-radius: 30px;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+  
+}
+
+.App-result {
+  
+  border-radius: 30px;
+  text-align: center; 
+  background-color: #fff;
+  position: relative;
+  
+}
+
+
+.block-test {
+    box-shadow: 2px 5px 15px rgb(131, 171, 249);
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    width: 900px;
+   
+    text-align: left;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 30px;
+    background-color: rgb(232, 232, 232);
+    margin-bottom: 25px;
+
+    
+  }
+  .progress__inner {
+    height: 100%;
+    border-radius: 30px;
+    width: 80%;
+    background: #1addff3b;;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(90deg, #1addff3b 0%, rgb(5, 44, 186) 100%);
+  }
+
+  progress:before,
+  progress:after {
+    content: '';
+    display: block;
+    height: 50px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  progress:before {
+    width: 95%;
+    bottom: -10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 0;
+  }
+
+  progress:after {
+    width: 90%;
+    bottom: -20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    z-index: 1;
+  }
+
+.ul {
+    list-style: none;
+    padding: 0;
+  }
+.li {
+    padding: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+
+    
+  }
+li:hover {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+  }
+
+  .button {
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 30px;
+    border: 0;
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #ff006e;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    background-color: #f05b9c;
+  }
